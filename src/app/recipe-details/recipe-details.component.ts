@@ -1,7 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { recipes } from '../data/recipes/data.json';
 import { ActivatedRoute } from '@angular/router';
-// import { Location } from '@angular/common';
 
 @Component({
   selector: 'app-recipe-details',
@@ -11,6 +10,7 @@ import { ActivatedRoute } from '@angular/router';
 export class RecipeDetailsComponent implements OnInit {
 
   private allRecipes = recipes;
+  private recipe;
 
   constructor(
     private route: ActivatedRoute
@@ -22,13 +22,7 @@ export class RecipeDetailsComponent implements OnInit {
 
   getRecipe(): void {
     const id = +this.route.snapshot.paramMap.get('id');
-    const recipe = this.allRecipes.find( recipe => recipe.id === id)
-   /* function isCherries(fruit) {
-      return fruit.id === id;
-    }
-    console.log(this.allRecipes.find(isCherries));
-*/
-    console.log(recipe);
+    this.recipe = this.allRecipes.find( recipe => recipe.id === id)
   }
 
 }
