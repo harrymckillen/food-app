@@ -12,7 +12,7 @@ const routes: Routes = [
   { path: 'dashboard', component: TilesComponent },
   { path: 'planner', component: MealPlannerComponent },
   { path: 'recipes', component: AllrecipesComponent },
-  { path: 'recipe/:slug', component: RecipeDetailsComponent }
+  { path: 'recipe/:id', component: RecipeDetailsComponent }
   ];
 
 @NgModule({

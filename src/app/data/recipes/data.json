@@ -1,0 +1,12 @@
+{
+  "recipes": [
+    {
+      "id": 1,
+      "title": "Vegetarian Lasagne"
+    },
+    {
+      "id": 2,
+      "title": "Peanut Curry"
+    }
+  ]
+}

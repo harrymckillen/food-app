@@ -2,5 +2,8 @@
 
   <h1 class="text-2xl font-bold">All Recipes</h1>
 
+  <ul>
+    <li *ngFor="let recipe of allRecipes"> <a routerLink="/recipe/{{recipe.id}}">{{ recipe.title }}</a></li>
+  </ul>
 </div>
 
