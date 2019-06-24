@@ -2,11 +2,48 @@
   "recipes": [
     {
       "id": 1,
-      "title": "Vegetarian Lasagne"
+      "title": "Vegetarian Lasagne",
+      "image": "/assets/imgs/food-sample.jpg"
     },
     {
       "id": 2,
-      "title": "Peanut Curry"
+      "title": "Peanut Curry X",
+      "image": "/assets/imgs/food-sample.jpg"
+    },
+    {
+      "id": 3,
+      "title": "X Peanut Curry",
+      "image": "/assets/imgs/food-sample.jpg"
+    },
+    {
+      "id": 4,
+      "title": "Peanut Curry",
+      "image": "/assets/imgs/food-sample.jpg"
+    },
+    {
+      "id": 5,
+      "title": "Peanut Curry",
+      "image": "/assets/imgs/food-sample.jpg"
+    },
+    {
+      "id": 6,
+      "title": "Peanut Curry",
+      "image": "/assets/imgs/food-sample.jpg"
+    },
+    {
+      "id": 7,
+      "title": "Peanut Curry",
+      "image": "/assets/imgs/food-sample.jpg"
+    },
+    {
+      "id": 8,
+      "title": "Peanut Curry",
+      "image": "/assets/imgs/food-sample.jpg"
+    },
+    {
+      "id": 9,
+      "title": "Peanut Curry",
+      "image": "/assets/imgs/food-sample.jpg"
     }
   ]
 }
