@@ -10,7 +10,6 @@ import { RecipeDetailsComponent } from './recipe-details/recipe-details.componen
 import { MealPlannerComponent } from './meal-planner/meal-planner.component';
 import { ServiceWorkerModule } from '@angular/service-worker';
 import { environment } from '../environments/environment';
-import { StoreModule } from '@ngrx/store';
 
 @NgModule({
   declarations: [
@@ -24,8 +23,7 @@ import { StoreModule } from '@ngrx/store';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    ServiceWorkerModule.register('ngsw-worker.js', { enabled: environment.production }),
-    StoreModule.forRoot({}, {})
+    ServiceWorkerModule.register('ngsw-worker.js', { enabled: environment.production })
   ],
   providers: [],
   bootstrap: [AppComponent]
