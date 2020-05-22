@@ -1,10 +1,10 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 
-import { TilesComponent } from './tiles/tiles.component';
-import { AllrecipesComponent } from './all-recipes/all-recipes.component';
-import { RecipeDetailsComponent } from './recipe-details/recipe-details.component';
-import { MealPlannerComponent } from './meal-planner/meal-planner.component';
+import { TilesComponent } from './components/tiles/tiles.component';
+import { AllrecipesComponent } from './components/all-recipes/all-recipes.component';
+import { RecipeDetailsComponent } from './components/recipe-details/recipe-details.component';
+import { MealPlannerComponent } from './components/meal-planner/meal-planner.component';
 
 
 const routes: Routes = [

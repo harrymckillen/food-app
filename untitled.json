@@ -1,4 +1,0 @@
-build
-          // "builder": "@angular-builders/custom-webpack:browser",
-serve
-          // "builder": "@angular-builders/custom-webpack:dev-server",

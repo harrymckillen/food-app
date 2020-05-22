@@ -1,3 +1,6 @@
 {
-  "recipe": "Recipe 2"
+  "peanut-curry": {
+    "id": 2,
+    "title": "Peanut Curry"
+  }
 }

@@ -1,13 +1,15 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-
 import { AppRoutingModule } from './app-routing.module';
-import { AppComponent } from './app.component';
-import { HeaderComponent } from './header/header.component';
-import { TilesComponent } from './tiles/tiles.component';
-import { AllrecipesComponent } from './all-recipes/all-recipes.component';
-import { RecipeDetailsComponent } from './recipe-details/recipe-details.component';
-import { MealPlannerComponent } from './meal-planner/meal-planner.component';
+
+// components
+import { AppComponent } from './components/app.component';
+import { HeaderComponent } from './components/header/header.component';
+import { TilesComponent } from './components/tiles/tiles.component';
+import { AllrecipesComponent } from './components/all-recipes/all-recipes.component';
+import { RecipeDetailsComponent } from './components/recipe-details/recipe-details.component';
+import { MealPlannerComponent } from './components/meal-planner/meal-planner.component';
+
 import { ServiceWorkerModule } from '@angular/service-worker';
 import { environment } from '../environments/environment';
 

@@ -1,3 +1,6 @@
 {
-  "recipe": "Recipe 1"
+    "vegetarian-lasagne":{
+      "id": 1,
+      "title": "Vegetarian Lasagne"
+    }
 }

@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { recipes } from '../data/recipes/data.json';
+import { recipes } from '../../data/recipes/data.json';
 
 
 @Component({
