@@ -2,7 +2,8 @@
   "recipes": [
     {
       "id": 1,
-      "title": "Vegetarian Lasagne"
+      "title": "Vegetarian Lasagne",
+      "image": "/assets/imgs/food-sample.jpg"
     },
     {
       "id": 2,

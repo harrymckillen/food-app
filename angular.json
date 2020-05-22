@@ -30,6 +30,7 @@
               "src/favicon.ico",
               "src/assets",
               // "src/recipes",
+              "src/data",
               "src/manifest.webmanifest"
             ],
             "styles": [
@@ -102,6 +103,7 @@
               "src/favicon.ico",
               "src/assets",
               // "src/recipes",
+              "src/data",
               "src/manifest.webmanifest"
             ]
           }
